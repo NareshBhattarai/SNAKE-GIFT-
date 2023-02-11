@@ -1,0 +1,71 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  height: 450px;
+  width:350px;
+  background:#293447;
+  
+  
+}
+.game{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  color:white;
+  font-weight: bolder;
+}
+.play-board{
+  background-color: #212837;
+  width:350px;
+  height: 410px;
+  margin-top: 10px;
+  display: grid;
+  grid-template: repeat(30, 1fr) / repeat(30, 1fr)
+}
+
+.play-board .food{
+  background-color: red;
+}
+.play-board .head{
+  background-color: lightblue;
+}
+.icon{
+  display: flex;
+  justify-content: space-evenly;
+  color:white;
+  background-color: darkred;
+  height: 40px;
+  
+  
+ 
+}
+.icon i{
+ 
+  padding:3px;
+  
+ 
+ 
+ 
+ 
+}
+marquee{
+  color:red;
+  font-weight: bolder;
+  margin-top: 50px;
+  
+  font-size: 30px;
+}
+
+h6{
+  margin-left: 5px;
+  margin-top: 20px;
+
+}
