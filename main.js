@@ -19,7 +19,7 @@ const changeFoodPosition=()=>{
 
 const handleGameOver=()=>{
   clearInterval(setIntervalid);
-  alert("Game Over, I LOVE YOU PUSPA♥️");
+  alert("Game Over, please press ok to play again");
   location.reload();
 }
 
